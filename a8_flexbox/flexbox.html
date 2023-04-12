@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Document</title>
+</head>
+<style>
+    div.caixa{
+        width: 50px;
+        height: 50px;
+        border: 1px solid red;
+    }
+    section#container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+    }
+</style>
+<body>
+    <h1>Flexbox</h1>
+
+    <section id="container">
+        <div class="caixa">Caixa 1</div>
+        <div class="caixa">Caixa 2</div>
+        <div class="caixa">Caixa 3</div>
+        <div class="caixa">Caixa 4</div>
+        <div class="caixa">Caixa 5</div>
+        <div class="caixa">Caixa 6</div>
+        <div class="caixa">Caixa 7</div>
+    </section>
+
+    <section>
+        <div>Caixa</div>
+    </section>
+
+
+</body>
+</html>

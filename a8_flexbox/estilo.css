@@ -1,0 +1,92 @@
+#container{
+    display: flex;
+    background-color: rgb(255, 255, 154);
+   
+}
+
+nav{
+    border: 1px solid orange;
+    
+}
+nav.menu{
+    
+}
+nav.sub-menu{
+    
+
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    border:  1px solid black;
+    padding: 50px;
+    width: 1300px;
+}
+
+footer{
+    border-top: 1px solid black;
+    margin: 2em;
+    text-align: center;
+}
+
+li{
+    width: 150px;
+    background-color: turquoise;
+    margin: 3px;
+    text-align: center;
+}
+header{
+    display: flex;
+    background-color:  rgb(255, 255, 154);
+    justify-content: space-between;
+    padding: 1em;
+}
+
+
+
+
+div{
+    
+    border: 3px solid orange;
+    background-color: rgb(255, 255, 154);
+    width: 200px;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    padding: 3px 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p.linha{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+p.preco{
+    font-size: 20px;
+    padding: 3%;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: orange;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+
+h2{
+    font-family: cursive;
+    text-decoration: underline;
+}
+
